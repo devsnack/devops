@@ -33,6 +33,8 @@ spec:
                 secretKeyRef:
                   name: mongo-secret
                   key: mongo-root-password
+            - name: ME_CONFIG_BASICAUTH_USERNAME
+            - name: ME_CONFIG_BASICAUTH_PASSWORD
 ---
 apiVersion: v1
 kind: Service
